@@ -8,7 +8,7 @@ A fast, intuitive, and easy to use web based to-do list app. No account required
 <a href="https://danielofodile.github.io/speedydo/app"><strong>App</strong></a>
 </p>
 
-<img style="border-radius:10px;" src="https://images/app.png">
+<img style="border-radius:10px;" src="images/app.png">
 
 ## Description
 
