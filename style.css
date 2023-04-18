@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+
+:root {
+  --todo-background: #252525;
+  --todo-gray: #a2a2a2;
+}
+
+* {
+  color: #141414;
+  background-color: #f4f4f4;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  scrollbar-width: none;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: min(80px, 20vw);
+  text-align: center;
+  margin: 80px 0 0 0;
+}
+
+.quote {
+  font-size: min(20px, 5vw);
+  text-align: center;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+
+.start {
+  margin: 50px auto 5px auto;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  background-color: #f2c86b;
+  color: #141414;
+  text-decoration: none;
+}
+
+.view {
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.fa-arrow-up-right-from-square {
+  font-size: 13px;
+}
+
+.quote2 {
+  font-size: 13px;
+  color: #707070;
+  text-align: center;
+}
+
+img {
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px #909090;
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.img-main {
+  margin: 50px auto;
+  width: min(900px, 90%);
+  display: block;
+}
+
+.feature {
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.height-2 {
+  height: 220px;
+}
+
+.feature .content {
+  width: 370px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.cta {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.note {
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.foot {
+  position: absolute;
+  background-color: #e4e4e4;
+  margin-top: 100px;
+  height: 150px;
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.foot * {
+  background-color: #e4e4e4;
+}
+
+.vcenter {
+  margin-top: 50px;
+}
+
+.fa-github {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    margin: 0 10%;
+  }
+
+  img {
+    border-radius: 5px;
+  }
+
+  .mobile img {
+    max-width: 90%;
+    margin-inline: auto;
+  }
+
+  .mobile {
+    display: block;
+    margin: 0 0 10% 0;
+  }
+
+  .computer {
+    display: none;
+  }
+}
